@@ -5,21 +5,21 @@
 using namespace std;
 int main()
 {
-	float x,y,s,m,d,r;
+	float CSNR_x,CSNR_y,CSNR_s,CSNR_m,CSNR_d,CSNR_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de CSNR_x=:";
+	cin>>CSNR_x;
+	cout<<"Ingrese en valor de CSNR_y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>CSNR_y;
+	CSNR_s=CSNR_x+CSNR_y;
+	CSNR_m=CSNR_x*CSNR_y;
+	CSNR_d=CSNR_x/CSNR_y;
+	CSNR_r=CSNR_x-CSNR_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<CSNR_x<<" + "<<CSNR_y<<" = "<<CSNR_s<<endl;
+	cout<<"Las multiplicacion de "<<CSNR_x<<" * "<<CSNR_y<<" = "<<CSNR_m<<endl;
+	cout<<"Las division de "<<CSNR_x<<" / "<<CSNR_y<<" = "<<CSNR_d<<endl;
+	cout<<"Las resta de "<<CSNR_x<<" - "<<CSNR_y<<" = "<<CSNR_r<<endl;
 	return 0;
 }
