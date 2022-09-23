@@ -1,18 +1,18 @@
-//Creado por Charli Nieves
+//Creado por: Charli Nieves
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float CSNR_a,CSNR_b;
+	cout<<"ingrese CSNR_a CSNR_b:"; cin>>CSNR_a>>CSNR_b;
+	if(CSNR_a>CSNR_b)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<CSNR_a<<" es mayor CSNR_a "<<CSNR_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<CSNR_b<<" es mayor CNSR_a "<<CSNR_a<<endl;
 
 
 	}
