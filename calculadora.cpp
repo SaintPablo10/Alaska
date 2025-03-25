@@ -7,9 +7,9 @@ int main()
 {
 	float CSNR_x,CSNR_y,CSNR_s,CSNR_m,CSNR_d,CSNR_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de SSSS_x=:";
+	cout<<"Ingrese en valor de SSSS_x=:"zzzz;
 	cin>>CSNR_x;
-	cout<<"Ingrese en valor de SSSS_y=:";
+	cout<<"Ingrese en valor de SSSzzzzzzS_y=:";
 	//Operaciones 
 	cin>>CSNR_y;
 	CSNR_s=CSNR_x+CSNR_y;
